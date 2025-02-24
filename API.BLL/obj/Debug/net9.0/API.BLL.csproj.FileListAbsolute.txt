@@ -1,0 +1,16 @@
+C:\Storage\BackEnd\API\API.BLL\bin\Debug\net9.0\API.BLL.deps.json
+C:\Storage\BackEnd\API\API.BLL\bin\Debug\net9.0\API.BLL.dll
+C:\Storage\BackEnd\API\API.BLL\bin\Debug\net9.0\API.BLL.pdb
+C:\Storage\BackEnd\API\API.BLL\bin\Debug\net9.0\API.DAL.dll
+C:\Storage\BackEnd\API\API.BLL\bin\Debug\net9.0\API.DAL.pdb
+C:\Storage\BackEnd\API\API.BLL\obj\Debug\net9.0\API.BLL.csproj.AssemblyReference.cache
+C:\Storage\BackEnd\API\API.BLL\obj\Debug\net9.0\API.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Storage\BackEnd\API\API.BLL\obj\Debug\net9.0\API.BLL.AssemblyInfoInputs.cache
+C:\Storage\BackEnd\API\API.BLL\obj\Debug\net9.0\API.BLL.AssemblyInfo.cs
+C:\Storage\BackEnd\API\API.BLL\obj\Debug\net9.0\API.BLL.csproj.CoreCompileInputs.cache
+C:\Storage\BackEnd\API\API.BLL\obj\Debug\net9.0\API.BLL.sourcelink.json
+C:\Storage\BackEnd\API\API.BLL\obj\Debug\net9.0\API.BLL.csproj.Up2Date
+C:\Storage\BackEnd\API\API.BLL\obj\Debug\net9.0\API.BLL.dll
+C:\Storage\BackEnd\API\API.BLL\obj\Debug\net9.0\refint\API.BLL.dll
+C:\Storage\BackEnd\API\API.BLL\obj\Debug\net9.0\API.BLL.pdb
+C:\Storage\BackEnd\API\API.BLL\obj\Debug\net9.0\ref\API.BLL.dll

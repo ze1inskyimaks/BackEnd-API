@@ -1,0 +1,13 @@
+C:\Storage\BackEnd\API\API.DAL\bin\Debug\net9.0\API.DAL.deps.json
+C:\Storage\BackEnd\API\API.DAL\bin\Debug\net9.0\API.DAL.dll
+C:\Storage\BackEnd\API\API.DAL\bin\Debug\net9.0\API.DAL.pdb
+C:\Storage\BackEnd\API\API.DAL\obj\Debug\net9.0\API.DAL.csproj.AssemblyReference.cache
+C:\Storage\BackEnd\API\API.DAL\obj\Debug\net9.0\API.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Storage\BackEnd\API\API.DAL\obj\Debug\net9.0\API.DAL.AssemblyInfoInputs.cache
+C:\Storage\BackEnd\API\API.DAL\obj\Debug\net9.0\API.DAL.AssemblyInfo.cs
+C:\Storage\BackEnd\API\API.DAL\obj\Debug\net9.0\API.DAL.csproj.CoreCompileInputs.cache
+C:\Storage\BackEnd\API\API.DAL\obj\Debug\net9.0\API.DAL.sourcelink.json
+C:\Storage\BackEnd\API\API.DAL\obj\Debug\net9.0\API.DAL.dll
+C:\Storage\BackEnd\API\API.DAL\obj\Debug\net9.0\refint\API.DAL.dll
+C:\Storage\BackEnd\API\API.DAL\obj\Debug\net9.0\API.DAL.pdb
+C:\Storage\BackEnd\API\API.DAL\obj\Debug\net9.0\ref\API.DAL.dll
