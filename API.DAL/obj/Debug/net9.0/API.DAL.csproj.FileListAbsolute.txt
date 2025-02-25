@@ -11,3 +11,5 @@ C:\Storage\BackEnd\API\API.DAL\obj\Debug\net9.0\API.DAL.dll
 C:\Storage\BackEnd\API\API.DAL\obj\Debug\net9.0\refint\API.DAL.dll
 C:\Storage\BackEnd\API\API.DAL\obj\Debug\net9.0\API.DAL.pdb
 C:\Storage\BackEnd\API\API.DAL\obj\Debug\net9.0\ref\API.DAL.dll
+C:\Storage\BackEnd\API\API.DAL\bin\Debug\net9.0\API.DAL.runtimeconfig.json
+C:\Storage\BackEnd\API\API.DAL\obj\Debug\net9.0\API.DAL.genruntimeconfig.cache

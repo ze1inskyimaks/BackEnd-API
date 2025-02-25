@@ -4,23 +4,23 @@ namespace API.BLL;
 
 public class ItemService(IItemRepository repository) : IItemService
 {
-    public Item? GetItem(uint id)
+    public async Task<Item?> GetItem(uint id)
     {
-        return repository.GetItem(id);
+        return await repository.GetItem(id);
     }
 
-    public List<Item> GetItemAll()
+    public async Task<List<Item>> GetItemAll()
     {
-        return repository.GetItemAll();
+        return await repository.GetItemAll();
     }
 
-    public void SetItem(Item item)
+    public async Task SetItem(Item item)
     {
-        repository.SetItem(item);
+        await repository.SetItem(item);
     }
 
-    public void DeleteItem(uint id)
+    public async Task DeleteItem(uint id)
     {
-        repository.DeleteItem(id);
+        await repository.DeleteItem(id);
     }
 }

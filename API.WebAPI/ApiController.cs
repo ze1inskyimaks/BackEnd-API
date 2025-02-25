@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace API.WebAPI;
 
 [ApiController]
-[Route("api/items")]
+[Route("items")]
 public class ApiController : ControllerBase
 { 
     private readonly IItemService _itemService;
@@ -16,9 +16,9 @@ public class ApiController : ControllerBase
     }
     
     [HttpGet("{id}")]
-    public IActionResult GetItem(uint id)
+    public async Task<IActionResult> GetItem(uint id)
     {
-        var item = _itemService.GetItem(id);
+        var item = await _itemService.GetItem(id);
         if (item == null)
         {
             return NotFound(new {message = $"Can`t found item for {id}id!"});
@@ -28,16 +28,16 @@ public class ApiController : ControllerBase
     }
 
     [HttpPost]
-    public IActionResult SetItem([FromBody] Item item)
+    public async Task<IActionResult> SetItem([FromBody] Item item)
     {
-        _itemService.SetItem(item);
+        await _itemService.SetItem(item);
         return Ok();
     }
 
     [HttpDelete]
-    public IActionResult DeleteItem(uint id)
+    public async Task<IActionResult> DeleteItem(uint id)
     {
-        _itemService.DeleteItem(id);
+        await _itemService.DeleteItem(id);
         return Ok();
     }
 }

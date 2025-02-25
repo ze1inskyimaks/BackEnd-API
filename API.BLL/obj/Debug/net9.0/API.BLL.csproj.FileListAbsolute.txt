@@ -14,3 +14,5 @@ C:\Storage\BackEnd\API\API.BLL\obj\Debug\net9.0\API.BLL.dll
 C:\Storage\BackEnd\API\API.BLL\obj\Debug\net9.0\refint\API.BLL.dll
 C:\Storage\BackEnd\API\API.BLL\obj\Debug\net9.0\API.BLL.pdb
 C:\Storage\BackEnd\API\API.BLL\obj\Debug\net9.0\ref\API.BLL.dll
+C:\Storage\BackEnd\API\API.BLL\bin\Debug\net9.0\API.BLL.runtimeconfig.json
+C:\Storage\BackEnd\API\API.BLL\obj\Debug\net9.0\API.BLL.genruntimeconfig.cache

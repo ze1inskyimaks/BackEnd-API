@@ -4,8 +4,8 @@ namespace API.BLL;
 
 public interface IItemService
 {
-    public Item? GetItem(uint id);
-    public List<Item> GetItemAll(); 
-    void SetItem(Item item);
-    void DeleteItem(uint id);
+    public Task<Item?> GetItem(uint id);
+    public Task<List<Item>> GetItemAll(); 
+    Task SetItem(Item item);
+    Task DeleteItem(uint id);
 }

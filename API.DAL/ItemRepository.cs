@@ -1,29 +1,38 @@
-﻿namespace API.DAL;
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace API.DAL;
 
 public class ItemRepository : IItemRepository
 {
-    private readonly List<Item> _items = new();
+    private readonly AppDbContext _context;
+
+    public ItemRepository(AppDbContext context)
+    {
+        _context = context;
+    }
     
-    public Item? GetItem(uint id)
+    public async Task<Item?> GetItem(uint id)
     {
-        return _items.FirstOrDefault(i => i.Id == id);
+        return await _context.Items.FindAsync(id);
     }
 
-    public List<Item> GetItemAll()
+    public async Task<List<Item>> GetItemAll()
     {
-        return _items;
+        return await _context.Items.ToListAsync();
     }
 
-    public void SetItem(Item item)
+    public async Task SetItem(Item item)
     {
-        _items.Add(item);
+        await _context.Items.AddAsync(item);    
+        await _context.SaveChangesAsync();  
     }
 
-    public void DeleteItem(uint id)
+    public async Task DeleteItem(uint id)
     {
-        var item = GetItem(id);
+        var item = await GetItem(id);
         if (item == null) return;
 
-        _items.Remove(item);
+        _context.Items.Remove(item);
+        await _context.SaveChangesAsync();
     }
 }
